@@ -97,7 +97,7 @@ body{
     
 }
 .navbar, .banner{
-    max-width: 1200px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 .btn-nav, .nav-link{
@@ -110,6 +110,8 @@ body{
 }
 
 /* banner styles */
+
+
 .banner-title{
     font-size: 4.8rem;
     color: rgba(255, 255, 255, 1);
@@ -126,10 +128,16 @@ body{
 
 
 .banner-content{
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.banner-text{
     width: 599px;
     margin-top: 28px;
     margin-bottom: 76px;
-    
+     
+
 }
 .btn-banner{
     display: flex;
@@ -138,34 +146,41 @@ body{
     margin-top: 30px;
 }
 .banner{
-    justify-content: space-between;
-    align-items: center;
+    max-width: 1060px;
+    background-image: linear-gradient(rgba(17, 17, 17, 1));
    
 }
-.banner img{
+.banner-image{
     width: 349px;
     height: 580px;
     position: relative;
+    margin-bottom: 0;
 }
 .div-500 {
     position: absolute;
     color: rgb(245, 236, 236);
-    right: 300px;
-    bottom: 570px;
+    top: 125px;
+    left: 230px;
+    bottom: 357px;
     border: 1px solid gray;
     background-color: rgb(48, 47, 47);
     opacity: 0.5;
-    border-radius: 10px;
-    margin: 0;
-    padding: 5px;
-    width: 160px;
-    height: 90px;
+    border-radius: 12px;
+   
+    width: 193px;
+    height: 98px;
     text-align: center;
+  
    
 }  
 
 .div-500  h3{
-    font-size: 1.4rem;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 1);
+   
+   
 } 
 .div-500  p{
     font-size:0.8rem;
@@ -175,7 +190,7 @@ body{
     
 }
 .div-350{
-    justify-content: space-evenly; 
+    justify-content: center; 
     align-items: center;
     position: absolute;
     color: rgb(245, 236, 236);
@@ -187,19 +202,22 @@ body{
     opacity: 0.5;
     border-radius: 12px;
     margin: 0;
-    padding: 20px 23px 20px;
+    /* padding: 20px 23px 20px; */
     width: 206px;
     height: 96px;
     text-align: center;
-    gap: 12px;
+    /* gap: 12px; */
 }
 .div-350 h3{
     font-size: 1.4rem;
     font-weight: bold;
+    margin-top: 0;
 }
 .div-350 p{
     font-size: 0.8rem;
     font-weight: 400px;
+    
+ 
 }
 .triagle{
     width: 40px;
