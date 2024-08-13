@@ -1,22 +1,18 @@
 
 
 @media screen and (max-width:576px) {
-    body{
-        max-width: 500px;
-        margin: 0 auto;
-    }
-    .display-flex{
+
+    .display-flex,
+    .banner,
+    .run, 
+    .team-area,
+    .footer-area{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .banner{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
+ 
     .banner-content{
         width:80%;
     }
@@ -39,12 +35,7 @@
     .habit-description{
         text-align: center;
     }
-    .run{
-       
-    
-        justify-content: center;
-        align-items: center;
-    }
+
     .run-parent{
        
         width: 400px;
@@ -68,11 +59,7 @@
       width: 425px;
        flex-direction: column;
     }
-    .team-area{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+
     .team-section{
         width:450px;
         height: 1800px;
@@ -81,15 +68,6 @@
         width: 200px;
         height: 250px;
     }
-    .footer-area{
-        flex-direction: column;
-        width: 450px;
-        
-    }
-  
-   
-        
-     
        
     }
   
